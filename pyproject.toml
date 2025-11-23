@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "basketball_ref_webscraper"
+version = "0.1.1"
+description = "Webscraper for Basketball Reference"
+authors = [ { name="Christopher Williams", email="chrisw.s2001@gmail.com" } ]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.12"
+keywords = [
+  "NBA",
+  "Basketball",
+  "Webscraper",
+  "Reference",
+  "basketball-reference.com"
+]
+classifiers = [
+  "Programming Language :: Python :: 3.12",
+  "Operating System :: OS Independent",
+  "Topic :: Software Development"
+]
+dependencies = [
+    "beautifulsoup4",
+    "ratelimit",
+    "requests",
+    "tenacity"
+]
+
+[project.urls]
+Source = "https://github.com/buffdelta/basketball_reference_webscraper"
