@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "basketball_ref_webscraper"
-version = "0.1.1"
+version = "0.1.2"
 description = "Webscraper for Basketball Reference"
 authors = [ { name="Christopher Williams", email="chrisw.s2001@gmail.com" } ]
 license = "MIT"
