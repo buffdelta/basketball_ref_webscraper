@@ -30,4 +30,4 @@ dependencies = [
 ]
 
 [project.urls]
-Source = "https://github.com/buffdelta/basketball_reference_webscraper"
+Source = "https://github.com/buffdelta/basketball_ref_webscraper"
